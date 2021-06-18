@@ -2,7 +2,7 @@
 
 body{
  	margin: 0;
-	
+
 }
 .container{
 	margin: 0 auto;
@@ -35,8 +35,8 @@ body{
 }
 .naw-btn-wrapper{
 	margin: 0;
-	padding-right: 5%;
-	height: 49px;
+	padding-right: 3%;
+	height: 50px;
 	line-height: 50px;
 	display: flex;
 	justify-content: flex-end;
@@ -50,12 +50,13 @@ body{
 	margin: 0 5px 0 0;
 	transition: all 0.5s ease;
 	padding-right: 10px;
-	border-bottom: 1px solid black;
+  padding-left: 10px;
+	border-bottom: 2px solid black;
 }
 .naw-btn-wrapper a:hover{
-	background-color: lightgrey;
-	border-bottom: 1px solid lightgrey;
-	
+	background-color: grey;
+	border-bottom: 2px solid white;
+
 }
 
 /* content style */
@@ -88,7 +89,7 @@ body{
 	margin: 0;
 }
 .about-me-wrapper p{
-	
+
 }
 
 /* -> porfolio skils */
@@ -129,14 +130,10 @@ body{
 	text-transform: uppercase;
 }
 .prew-experiance-block h3{
-	
+
 }
 .prew-experiance-block p{
-	
+
 }
 
 /* --> skills styling */
-
-
-
-
