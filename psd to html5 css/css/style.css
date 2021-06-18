@@ -1,0 +1,142 @@
+/* global style */
+
+body{
+ 	margin: 0;
+	
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	min-height: 400px;
+}
+
+/* naw bar style */
+.naw-bar-wrapper{
+	margin: 0;
+	height: 50px;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.logo-wrapper{
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+	line-height: 50px;
+	padding-left: 5%;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.naw-wrapper{
+	margin: 0;
+	box-sizing: border-box;
+}
+.naw-btn-wrapper{
+	margin: 0;
+	padding-right: 5%;
+	height: 49px;
+	line-height: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+.naw-btn-wrapper a{
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	color: white;
+	margin: 0 5px 0 0;
+	transition: all 0.5s ease;
+	padding-right: 10px;
+	border-bottom: 1px solid black;
+}
+.naw-btn-wrapper a:hover{
+	background-color: lightgrey;
+	border-bottom: 1px solid lightgrey;
+	
+}
+
+/* content style */
+.content{
+	margin: 0;
+	padding: 0;
+}
+
+/* -> about me content */
+.about-me-wrapper{
+	margin:5% 0 5% 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	border-bottom: 1px solid #999;
+}
+.img-wrapper{
+	margin: 0;
+	padding: 0;
+}
+.img-wrapper img{
+	margin: 0;
+	width: 200px;
+}
+.about-me-text-wrapper{
+	margin: 0;
+	padding: 10px;
+}
+.about-me-text-wrapper h2{
+	margin: 0;
+}
+.about-me-wrapper p{
+	
+}
+
+/* -> porfolio skils */
+
+.porfolio-wrapper{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+}
+
+/* --> education styling */
+.education-wrapper{
+	margin: 0;
+	padding: 3%;
+}
+.education-wrapper h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.education-block-wrapper{
+	margin: 10px 0 0 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+/* --> prew experiance styling */
+.prew-experiance-wrapper{
+	margin: 0;
+	padding: 3%;
+}
+.prew-experiance-block{
+	padding: 3%;
+	margin:10px 0 0 0;
+}
+.prew-experiance-wrapper h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.prew-experiance-block h3{
+	
+}
+.prew-experiance-block p{
+	
+}
+
+/* --> skills styling */
+
+
+
+
