@@ -101,39 +101,3 @@ body{
 	grid-template-columns:1fr 1fr;
 }
 
-/* --> education styling */
-.education-wrapper{
-	margin: 0;
-	padding: 3%;
-}
-.education-wrapper h2{
-	text-align: center;
-	text-transform: uppercase;
-}
-.education-block-wrapper{
-	margin: 10px 0 0 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
-/* --> prew experiance styling */
-.prew-experiance-wrapper{
-	margin: 0;
-	padding: 3%;
-}
-.prew-experiance-block{
-	padding: 3%;
-	margin:10px 0 0 0;
-}
-.prew-experiance-wrapper h2{
-	text-align: center;
-	text-transform: uppercase;
-}
-.prew-experiance-block h3{
-
-}
-.prew-experiance-block p{
-
-}
-
-/* --> skills styling */
