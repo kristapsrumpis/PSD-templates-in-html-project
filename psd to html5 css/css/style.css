@@ -61,8 +61,9 @@ body{
 
 /* content style */
 .content{
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	width:1080px;
 }
 
 /* -> about me content */
@@ -92,12 +93,20 @@ body{
 
 }
 
-/* -> porfolio skils */
-
+/* -> porfolio skills */
 .porfolio-wrapper{
-	margin: 0;
+	margin: 5% 0 5% 0;
 	padding: 0;
-	display: grid;
-	grid-template-columns:1fr 1fr;
+
 }
 
+/* personal skills */
+.personal-skills{
+  margin: 5% 0 5% 0;
+	padding: 0;
+}
+.personal-skills h3{
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
